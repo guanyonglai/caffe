@@ -1,0 +1,22 @@
+1、gdb调试，生成可执行文件，叫gdb_test
+g++ gdb_test.c -g -Wall -Werror -o gdb_test
+
+2、darknet运行检测图片命令
+./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
+
+3、获取Git的 id_rsa.pub
+   ssh-keygen
+   cd .ssh/
+   ls可以看到id_rsa和id_rsa.pub
+
+4、设置.ssh/公钥
+   http://blog.csdn.net/jingtingfengguo/article/details/51892864
+   git遇到的问题之“Please make sure you have the correct access rights and the repository exists.”
+
+5、git同步本地到远程完整流程：
+   1)git add a.txt
+   2)git status 查看状态，可多次使用该指令
+   3)git commit -m '备注'
+   4)git remote add origin git@github.com:guanyonglai/goods_recognition_0228.git
+   5)git push origin master
+   *)其中origin就是远程端，master就是本地仓库，我们默认他俩的名字这么叫，
