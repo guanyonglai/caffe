@@ -17,7 +17,7 @@ video_txt.py                            # 对每一张图片都查找前8相似�
 video_txt0502.py                        # 对每一张图片都查找前8相似的图片，把找到的图片存到txt文档里，13张沙棘汁
 yi+shopping.caffemodel                  # yi+的ResNet模型
 yi+shopping.prototxt                    # yi+的ResNet模型的配置文件
-
+frames_wash.py                          #视频帧清洗，服务器上需要安装GStream插件
 
 ###########################
 
